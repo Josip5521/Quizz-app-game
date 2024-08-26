@@ -46,9 +46,7 @@ class QuizInterface:
 
     def is_correct(self):
         self.give_feedback(self.quiz.check_answer("True"))
-        # is_right = self.quiz.check_answer("True")
-        # self.give_feedback(is_right)      Ove dvije linije rade isto kao i ova jedna!!!
-
+        
     def is_not_correct(self):
         self.give_feedback(self.quiz.check_answer("False"))
 
